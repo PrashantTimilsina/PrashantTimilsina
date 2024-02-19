@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #daf5ff;
+  height: 1900px;
+  overflow-x: hidden;
+}
+.navbar {
+  height: 6vh;
+  width: 100 vw;
+  display: flex;
+  margin-top: 10px;
+  position: sticky;
+  top: 0px;
+}
+.nav-items {
+  margin-left: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 37rem;
+  font-size: 1.53rem;
+  position: sticky;
+  top: 0px;
+}
+.nav-items a {
+  margin-left: 20%;
+  text-decoration: none;
+  z-index: 2;
+}
+.nav-items a:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.28s ease-in;
+}
+.nav-logo {
+  height: 5vh;
+  width: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+.nav-logo p {
+  font-size: 1.5rem;
+}
+.nav-logo i {
+  font-size: 1.54rem;
+}
+.hero-section {
+  height: 65vh;
+  width: 100vw;
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-section {
+  margin-right: 30rem;
+  font-size: 2.5rem;
+  margin-top: 100px;
+}
+
+.mine-bio {
+  font-size: 1.5rem;
+  margin-left: 5rem;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+.name {
+  margin-left: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1rem;
+  color: red;
+}
+.name:hover {
+  color: blue;
+}
+.course {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 550;
+  margin-left: 25px;
+}
+.photo-section {
+  height: 450px;
+  width: 350px;
+  border-radius: 54px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 21px 21px 34px #949494, -21px -21px 34px #ffffff;
+  margin-right: 25px;
+  background-image: url("portfolio\ pic.png");
+
+  background-size: cover;
+  margin-right: 40px;
+}
+.about-section {
+  height: 450px;
+  width: 100vw;
+
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+}
+.pic-section {
+  height: 450px;
+  width: 350px;
+  margin-left: 25px;
+  border-radius: 54px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 21px 21px 34px #949494, -21px -21px 34px #ffffff;
+  margin-right: 25px;
+  background-image: url("background2.png");
+
+  background-size: cover;
+}
+.description {
+  height: 280px;
+  width: 850px;
+
+  margin-left: 50px;
+  font-size: 2rem;
+  margin-top: 25px;
+  padding: 25px;
+}
+.big-section {
+  margin: 25px;
+  margin-left: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detail {
+  font-family: cursive;
+}
+.services-section {
+  height: 60vh;
+
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  margin-top: 90px;
+  z-index: 1;
+}
+.box-section {
+  height: 250px;
+  width: 90vw;
+
+  padding: 55px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+.box1 {
+  width: 350px;
+  margin-right: 140px;
+  background-image: url("web\ development.jpg");
+  background-size: cover;
+  color: white;
+}
+.box2 {
+  width: 350px;
+  margin-right: 110px;
+  background-image: url("game\ develop.jpg");
+  background-size: cover;
+}
+.box3 {
+  width: 350px;
+  background-image: url("search\ engine.jpg");
+  background-size: cover;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.contact-section {
+  margin-top: 100px;
+}
+.work {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+
+  position: absolute;
+  bottom: 350px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.lang {
+  position: relative;
+  top: 170px;
+  color: black;
+  font-size: 1.4rem;
+}
+.contact-section {
+  height: 30vh;
+  width: 100vw;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+form {
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  gap: 25px;
+  position: absolute;
+  right: 30px;
+
+  margin-bottom: 70px;
+}
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+input::placeholder {
+  color: black;
+  text-align: center;
+  height: 28px;
+  width: 100%;
+}
+button {
+  height: 35px;
+  width: 300px;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.foot {
+  height: 200px;
+  width: 70vw;
+  /*background-color: black;*/
+  position: relative;
+  bottom: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  margin-top: 100px;
+  background-color: #f0f0f094;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#icon {
+  height: 50px;
+  width: 100px;
+  padding-top: 70px;
+  position: relative;
+  right: 200px;
+  font-size: 2.5rem;
+  gap: 2rem;
+  cursor: pointer;
+}
+#icon:hover {
+  color: blue;
+}
+.foot-2 {
+  height: 1px;
+  width: 100vw;
+
+  padding-bottom: 100px;
+  position: relative;
+  bottom: 270px;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.copyright {
+  color: black;
+  margin-top: 60px;
+  font-weight: 900;
+  font-style: italic;
+}
+.nav-items i {
+  height: 2rem;
+  width: 2vw;
+  display: none;
+}
